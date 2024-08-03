@@ -1,0 +1,24 @@
+.nav-link {
+  border-left: 4px solid transparent;
+}
+.nav-link-active,
+.nav-link:hover  {
+  border-left: 4px solid $success;
+}
+.nav-link-active span,
+.nav-link:hover strong,
+.nav-link:hover span {
+  color: $success;
+}
+.icon-none::after {
+  display: none;
+}
+.file-link-btn {
+  padding: 10px 16px;
+}
+.reply-btn {
+  padding: 8px 32px;
+}
+.course-list:hover {
+  background: $light;
+}
