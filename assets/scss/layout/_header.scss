@@ -1,0 +1,9 @@
+.navbar {
+  width: 296px;
+}
+.nav-link {
+  border-left: 3px solid transparent;
+}
+.nav-link:hover {
+  background-color: $secondary;
+}
