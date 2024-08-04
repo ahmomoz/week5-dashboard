@@ -10,281 +10,368 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>index</title>
-    <script type="module" crossorigin src="/week5-dashboard/assets/main-83f7d377.js"></script>
-    <link rel="stylesheet" href="/week5-dashboard/assets/main-eaf135b9.css">
+    <script type="module" crossorigin src="/week5-dashboard/assets/main-4d373af9.js"></script>
+    <link rel="stylesheet" href="/week5-dashboard/assets/main-3490ce1c.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row gx-0">
-        <nav class="col-2">
-          <div class="bg-light vh-100 d-flex flex-column flex-shrink-0 py-4">
-            <a href="#" class="mb-4 mx-4">
-              <img src="/week5-dashboard/assets/logo-ANSWER-5336fb45.svg" alt="logo-image">
-            </a>
-            <ul class="nav position-relative d-flex flex-column mb-auto">
-              <li class="nav-item my-2">
-                <a href="#" class="nav-link link-dark d-flex align-items-center py-1 px-4">
-                  <span class="material-symbols-outlined me-2">
-                    insert_chart
+    <div class="d-flex">
+      <aside class="navbar navbar-expand-lg bg-body-tertiary vh-100 py-4_5">
+  <div class="container-fluid flex-column align-items-start h-100 px-0">
+    <div class="w-100">
+      <a href="#" class="nabvar-brand mb-4 px-4_5">
+        <img src="/week5-dashboard/assets/logo-ANSWER-5336fb45.svg" alt="logo-image">
+      </a>
+      <ul class="navbar-nav flex-column py-4_5">
+        <li class="nav-item my-2">
+          <a href="#" class="nav-link link-dark py-1 px-4">
+            <span class="material-symbols-outlined align-bottom me-2">
+              insert_chart
+            </span>
+            <strong>Dashboard</strong>
+          </a>
+        </li>
+        <li class="nav-item my-2">
+          <a href="#" class="nav-link link-dark py-1 px-4">
+            <span class="material-symbols-outlined align-bottom me-2">
+              forum
+            </span>
+            <strong>Question</strong>
+          </a>
+        </li>
+        <li class="nav-item my-2">
+          <a
+            href="index.html"
+            class="nav-link py-1 px-4 link-success active border-start border-3 border-success"
+            aria-current="page">
+            <span
+              class="material-symbols-outlined align-bottom me-2 link-success ">
+              assignment
+            </span>
+            <strong>Assignment</strong>
+          </a>
+        </li>
+        <li class="nav-item my-2">
+          <a href="#" class="nav-link link-dark py-1 px-4">
+            <span class="material-symbols-outlined align-bottom me-2">
+              video_library
+            </span>
+            <strong>Course</strong>
+          </a>
+        </li>
+        <li class="nav-item my-2">
+          <a 
+            href="admin.html"
+            class="nav-link py-1 px-4 ">
+            <span 
+              class="material-symbols-outlined align-bottom me-2 ">
+              group
+            </span>
+            <strong>Admin</strong>
+          </a>
+        </li>
+        <li class="nav-item my-2">
+          <a href="#" class="nav-link link-dark py-1 px-4">
+            <span class="material-symbols-outlined align-bottom me-2">
+              settings
+            </span>
+            <strong>Settings</strong>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center px-4_5">
+      <div class="flex-shrink-0">
+        <img
+          src="/week5-dashboard/assets/andychen-f14fef59.jpeg"
+          alt="user-image"
+          class="rounded-circle object-fit-cover me-2"
+          style="width: 40px; height: 40px;">
+      </div>
+      <div class="flex-grow-1">
+        <p class="fw-bold">Andy Chen</p>
+        <a href="mailto:andy0401@mail.com" class="fs-7 text-secondary">
+          andy0401@mail.com
+        </a>
+      </div>
+    </div>
+  </div>
+</aside>      <main class="container-fluid px-0">
+        <header class="d-flex align-items-center justify-content-between p-4_5">
+          <nav class="d-flex">
+            <div class="assignment-title d-flex align-items-center">
+              <h1 class="fs-4 fw-bold m-0">Assignment</h1>
+              <div class="dropdown d-flex align-items-center ms-5">
+                <button
+                  class="btn btn-transparent dropdown-toggle fw-bold icon-none d-flex align-items-center p-0"
+                  type="button" id="assignment-dropdownMenu"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  All Courses
+                  <span class="material-symbols-outlined text-success ms-2">
+                    keyboard_arrow_down
                   </span>
-                  <strong>Dashboard</strong>
-                </a>
-              </li>
-              <li class="nav-item position-relative my-2">
-                <a href="#" class="nav-link link-dark d-flex align-items-center py-1 px-4">
-                  <span class="material-symbols-outlined me-2">
-                    forum
-                  </span>
-                  <strong>Question</strong>
-                </a>
-              </li>
-              <li class="nav-item position-relative my-2">
-                <a href="index.html" class="nav-link link-success d-flex align-items-center py-1 px-4 nav-link-active">
-                  <span class="material-symbols-outlined me-2">
-                    assignment
-                  </span>
-                  <strong>Assignment</strong>
-                </a>
-              </li>
-              <li class="nav-item position-relative my-2">
-                <a href="#" class="nav-link link-dark d-flex align-items-center py-1 px-4">
-                  <span class="material-symbols-outlined me-2">
-                    video_library
-                  </span>
-                  <strong>Course</strong>
-                </a>
-              </li>
-              <li class="nav-item position-relative my-2">
-                <a href="admin.html" class="nav-link link-dark d-flex align-items-center py-1 px-4">
-                  <span class="material-symbols-outlined me-2">
-                    group
-                  </span>
-                  <strong>Admin</strong>
-                </a>
-              </li>
-              <li class="nav-item position-relative my-2">
-                <a href="#" class="nav-link link-dark d-flex align-items-center py-1 px-4">
-                  <span class="material-symbols-outlined me-2">
-                    settings
-                  </span>
-                  <strong>Settings</strong>
-                </a>
-              </li>
-            </ul>
-            <div class="d-flex align-items-center px-4">
-              <div class="user-img">
-                <img src="/week5-dashboard/assets/andychen-f14fef59.jpeg" alt="user-image" class="rounded-circle me-2" style="width: 40px; height: 40px;">
-              </div>
-              <div class="user-text">
-                <strong>Andy Chen</strong>
-                <p class="fs-7 text-secondary mb-0">andy0401@mail.com</p>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="assignment-dropdownMenu">
+                  <li><a class="dropdown-item" href="#">Courses 1</a></li>
+                  <li><a class="dropdown-item" href="#">Courses 2</a></li>
+                  <li><a class="dropdown-item" href="#">Courses 3</a></li>
+                </ul>
               </div>
             </div>
+          </nav>
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-4">
+              <span class="d-block material-symbols-outlined">
+                search
+              </span>
+            </a>
+            <a href="#">
+              <span class="d-block material-symbols-outlined">
+                notifications_active
+              </span>
+            </a>
           </div>
-        </nav>
-        <main class="col-10">
-          <div class="p-4_5">
-            <div class="d-flex align-items-center justify-content-between">
-              <nav class="d-flex">
-                <div class="assignment-title d-flex align-items-center">
-                  <h1 class="fs-4 fw-bold m-0">Assignment</h1>
-                  <div class="dropdown d-flex align-items-center ms-5">
+        </header>
+        <div class="d-flex align-items-center justify-content-between mt-3 px-4_5">
+          <div class="dropdown d-flex align-items-center">
+            <button
+              class="btn btn-transparent dropdown-toggle fw-bold icon-none d-flex align-items-center p-0"
+              type="button" id="assignment-dropdownMenu"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              All (4)
+              <span class="material-symbols-outlined text-success ms-2">
+                keyboard_arrow_down
+              </span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="assignment-dropdownMenu">
+              <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
+              <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
+              <li><a class="dropdown-item" href="#">Chapter Assignment 3</a></li>
+              <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+            </ul>
+          </div>
+          <p class="fs-8 text-secondary">2 comments</p>
+        </div>
+        <div class="d-flex justify-content-center mt-1 px-4_5">
+          <div class="w-25">
+            <div class="list-group rounded-0" id="list-tab" role="tablist">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action active p-2_5 gy-1"
+                aria-current="true">
+                <div class="d-flex">
+                  <p class="fs-8">Chapter Assignment 2</p>
+                  <p class="fs-8 ms-auto">4 hrs ago</p>
+                </div>
+                <div class="d-flex">
+                  <h2 class="fs-6 fw-bold">Please check this file…</h2>
+                  <p class="fs-8 text-secondary ms-auto">Emily Wang</p>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action p-2_5 gy-1">
+                <div class="d-flex">
+                  <p class="fs-8">Chapter Assignment 1</p>
+                  <p class="fs-8 ms-auto">12 hrs ago</p>
+                </div>
+                <div class="d-flex">
+                  <h2 class="fs-6 fw-bold">My Homework</h2>
+                  <p class="fs-8 text-secondary ms-auto">David Xu</p>
+                </div>
+              </a>
+              <a 
+                href="#"
+                class="list-group-item list-group-item-action p-2_5 gy-1">
+                <div class="d-flex">
+                  <p class="fs-8">Final Assignment</p>
+                  <p class="fs-8 ms-auto">18 hrs ago</p>
+                </div>
+                <div class="d-flex">
+                  <h2 class="fs-6 fw-bold">Have a problem with this…</h2>
+                  <p class="fs-8 text-secondary ms-auto">Tony Wei</p>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action p-2_5 gy-1">
+                <div class="d-flex">
+                  <p class="fs-8">Final Assignment</p>
+                  <p class="fs-8 ms-auto">19 hrs ago</p>
+                </div>
+                <div class="d-flex">
+                  <h2 class="fs-6 fw-bold">Did I do it right?</h2>
+                  <p class="fs-8 text-secondary ms-auto">Christina Lin</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="w-75 ms-3 position-relative">
+            <div class="card rounded-0">
+              <div class="card-header d-flex justify-content-between p-2_5">
+                <div>
+                  <p class="fs-8">Chapter Assignment 2 / HTML&CSS</p>
+                  <h2 class="fs-6 fw-bold">Please check this file for me, thanks!</h2>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a href="#">
+                    <span class="material-symbols-outlined">
+                      more_vert
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-bottom-0 p-3 gy-1">
+                  <div class="d-flex pe-3">
+                    <div class="user-img me-2">
+                      <img src="/week5-dashboard/assets/emilywang-cc5a821b.jpeg" alt="user-image" class="rounded-circle object-fit-cover" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="user-text border-bottom pb-3">
+                      <p class="fw-bold">Emily Wang</p>
+                      <p class="fs-8 text-secondary">10:38 AM (4 hours ago)</p>
+                      <p class="fs-7 mt-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="bg-light px-1">div</code> is bigger than the height of the <code class="bg-light px-1">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.</br>What is the gap or extra space below image?</p>
+                      <button type="btn" class="btn btn-light border border-1 rounded-0 fw-bold icon-none file-link-btn d-flex align-items-center mt-3">
+                        <span class="material-symbols-outlined me-2">
+                          attach_file
+                        </span>
+                        HW-2-David.zip
+                      </button>
+                    </div>
+                  </div>
+                  <div class="d-flex mt-3 pe-3">
+                    <div class="user-img me-2">
+                      <img src="/week5-dashboard/assets/andychen-f14fef59.jpeg" alt="user-image" class="rounded-circle object-fit-cover" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="user-text">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <p class="fw-bold">Andy Chen (You)</p>
+                        <div class="d-flex align-items-center">
+                          <a href="#" class="me-4">
+                            <span class="d-block material-symbols-outlined fill-none">
+                              star
+                            </span>
+                          </a>
+                          <a href="#">
+                            <span class="d-block material-symbols-outlined">
+                              edit
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <p class="fs-8 text-secondary">13:24 AM (1 hours ago)</p>
+                      <p class="fs-7 mt-3">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</br></br> You can:</br></br>　• adjust the <code class="bg-light px-1">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-light px-1">middle</code> ) or </br>　• change the <code class="bg-light px-1">display</code> so it isn’t inline.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <div class="d-flex align-items-center">
+                <a href="#" class="me-4">
+                  <span class="d-block material-symbols-outlined fill-none">
+                    chevron_left
+                  </span>
+                </a>
+                <a href="#">
+                  <span class="d-block material-symbols-outlined">
+                    chevron_right
+                  </span>
+                </a>
+              </div>
+              <div class="d-flex">
+                <button
+                  type="button"
+                  class="btn btn-outline-success fw-bold reply-btn me-3">
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-success text-white fw-bold reply-btn"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#replyCollapse"
+                  aria-expanded="false"
+                  aria-controls="replyCollapse">
+                  Reply
+                </button>
+              </div>
+            </div>
+            <!-- replyCollapse -->
+            <div class="replyCollapse collapse position-absolute" id="replyCollapse">
+              <div class="card rounded-0">
+                <div class="card-header d-flex align-items-center px-4 py-3">
+                  <div class="dropdown me-4">
                     <button
-                      class="btn btn-transparent dropdown-toggle fw-bold icon-none d-flex align-items-center p-0"
+                      class="btn btn-transparent dropdown-toggle fw-bold p-0"
                       type="button" id="assignment-dropdownMenu"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      All Courses
-                      <span class="material-symbols-outlined text-success ms-2">
-                        keyboard_arrow_down
-                      </span>
+                      Body Text
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="assignment-dropdownMenu">
-                      <li><a class="dropdown-item" href="#">Courses 1</a></li>
-                      <li><a class="dropdown-item" href="#">Courses 2</a></li>
-                      <li><a class="dropdown-item" href="#">Courses 3</a></li>
+                      <li><a class="dropdown-item" href="#">Lato</a></li>
+                      <li><a class="dropdown-item" href="#">Microsoft JhengHei</a></li>
+                      <li><a class="dropdown-item" href="#">Arial</a></li>
                     </ul>
                   </div>
-                </div>
-              </nav>
-              <div class="d-flex align-items-center">
-                <a href="#" class="text-decoration-none me-4">
-                  <span class="d-block material-symbols-outlined">
-                    search
-                  </span>
-                </a>
-                <a href="#" class="text-decoration-none">
-                  <span class="d-block material-symbols-outlined">
-                    notifications_active
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div class="row justify-content-center mt-4_75 gx-3">
-              <div class="d-flex align-items-center justify-content-between">
-                <div class="dropdown d-flex align-items-center">
-                  <button
-                    class="btn btn-transparent dropdown-toggle fw-bold icon-none d-flex align-items-center p-0"
-                    type="button" id="assignment-dropdownMenu"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    All (4)
-                    <span class="material-symbols-outlined text-success ms-2">
-                      keyboard_arrow_down
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      format_bold
                     </span>
+                  </a>
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      format_italic
+                    </span>
+                  </a>
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      format_list_bulleted
+                    </span>
+                  </a>
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      format_list_numbered
+                    </span>
+                  </a>
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      image
+                    </span>
+                  </a>
+                  <a href="#" class="d-inline-flex me-4">
+                    <span class="d-block material-symbols-outlined">
+                      link
+                    </span>
+                  </a>
+                  <a href="#" class="d-inline-flex">
+                    <span class="d-block material-symbols-outlined">
+                      code
+                    </span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <textarea class="form-control border-0" placeholder="Reply an answer…" id="replyCardTextarea" style="height: 170px; resize:none;"></textarea>
+                </div>
+                <div class="d-flex justify-content-end pb-3 pe-4_5">
+                  <button
+                    type="button"
+                    class="btn btn-outline-success fw-bold reply-btn me-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#replyCollapse"
+                    aria-expanded="false"
+                    aria-controls="replyCollapse">
+                    Cancel
                   </button>
-                  <ul class="dropdown-menu" aria-labelledby="assignment-dropdownMenu">
-                    <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
-                    <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
-                    <li><a class="dropdown-item" href="#">Chapter Assignment 3</a></li>
-                    <li><a class="dropdown-item" href="#">Final Assignment</a></li>
-                  </ul>
-                </div>
-                <p class="fs-8 text-secondary mb-0">2 comments</p>
-              </div>
-              <div class="col-4 mt-1">
-                <div class="card rounded-0">
-                  <div class="card-header p-2_5 gy-1">
-                    <a href="#" class="text-decoration-none link-dark">
-                      <div class="d-flex">
-                        <p class="fs-8 mb-0">Chapter Assignment 2</p>
-                        <p class="fs-8 ms-auto mb-0">4 hrs ago</p>
-                      </div>
-                      <div class="d-flex">
-                        <h2 class="fs-6 fw-bold mb-0">Please check this file…</h2>
-                        <p class="fs-8 text-secondary ms-auto mb-0">Emily Wang</p>
-                      </div>
-                    </a>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item course-list p-2_5 gy-1">
-                      <a href="#" class="text-decoration-none link-dark">
-                        <div class="d-flex">
-                          <p class="fs-8 mb-0">Chapter Assignment 1</p>
-                          <p class="fs-8 ms-auto mb-0">12 hrs ago</p>
-                        </div>
-                        <div class="d-flex">
-                          <h2 class="fs-6 fw-bold mb-0">My Homework</h2>
-                          <p class="fs-8 text-secondary ms-auto mb-0">David Xu</p>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="list-group-item course-list p-2_5 gy-1">
-                      <a href="#" class="text-decoration-none link-dark">
-                        <div class="d-flex">
-                          <p class="fs-8 mb-0">Final Assignment</p>
-                          <p class="fs-8 ms-auto mb-0">18 hrs ago</p>
-                        </div>
-                        <div class="d-flex">
-                          <h2 class="fs-6 fw-bold mb-0">Have a problem with this…</h2>
-                          <p class="fs-8 text-secondary ms-auto mb-0">Tony Wei</p>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="list-group-item course-list p-2_5 gy-1">
-                      <a href="" class="text-decoration-none link-dark">
-                        <div class="d-flex">
-                          <p class="fs-8 mb-0">Final Assignment</p>
-                          <p class="fs-8 ms-auto mb-0">19 hrs ago</p>
-                        </div>
-                        <div class="d-flex">
-                          <h2 class="fs-6 fw-bold mb-0">Did I do it right?</h2>
-                          <p class="fs-8 text-secondary ms-auto mb-0">Christina Lin</p>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-8 mt-1">
-                <div class="card rounded-0">
-                  <div class="card-header d-flex justify-content-between p-2_5">
-                    <div>
-                      <p class="fs-8 mb-0">Chapter Assignment 2 / HTML&CSS</p>
-                      <h2 class="fs-6 fw-bold mb-0">Please check this file for me, thanks!</h2>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <a href="#">
-                        <span class="material-symbols-outlined">
-                          more_vert
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item border-bottom-0 p-3 gy-1">
-                      <div class="d-flex pe-3">
-                        <div class="user-img me-2">
-                          <img src="/week5-dashboard/assets/emilywang-cc5a821b.jpeg" alt="user-image" class="rounded-circle" style="width: 40px; height: 40px;">
-                        </div>
-                        <div class="user-text border-bottom pb-3">
-                          <strong>Emily Wang</strong>
-                          <p class="fs-8 text-secondary mb-0">10:38 AM (4 hours ago)</p>
-                          <p class="fs-7 mb-0 mt-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-success bg-light px-1">div</span> is bigger than the height of the <span class="text-success bg-light px-1">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.</br>What is the gap or extra space below image?</p>
-                          <button type="btn" class="btn btn-light border border-1 rounded-0 fw-bold icon-none file-link-btn d-flex align-items-center mt-3">
-                            <span class="material-symbols-outlined me-2">
-                              attach_file
-                            </span>
-                            HW-2-David.zip
-                          </button>
-                        </div>
-                      </div>
-                      <div class="d-flex mt-3 pe-3">
-                        <div class="user-img me-2">
-                          <img src="/week5-dashboard/assets/andychen-f14fef59.jpeg" alt="user-image" class="rounded-circle" style="width: 40px; height: 40px;">
-                        </div>
-                        <div class="user-text">
-                          <div class="d-flex align-items-center justify-content-between">
-                            <strong>Andy Chen (You)</strong>
-                            <div class="d-flex align-items-center">
-                              <a href="#" class="text-decoration-none me-4">
-                                <span class="d-block material-symbols-outlined fill-none">
-                                  star
-                                </span>
-                              </a>
-                              <a href="#" class="text-decoration-none">
-                                <span class="d-block material-symbols-outlined">
-                                  edit
-                                </span>
-                              </a>
-                            </div>
-                          </div>
-                          <p class="fs-8 text-secondary mb-0">13:24 AM (1 hours ago)</p>
-                          <p class="fs-7 mb-0 mt-3">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</br></br> You can:</br></br>　• adjust the <span class="text-success bg-light px-1">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-success bg-light px-1">middle</span> ) or </br>　• change the <span class="text-success bg-light px-1">display</span> so it isn’t inline.</p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                  <div class="d-flex align-items-center">
-                    <a href="#" class="text-decoration-none me-4">
-                      <span class="d-block material-symbols-outlined fill-none">
-                        chevron_left
-                      </span>
-                    </a>
-                    <a href="#" class="text-decoration-none">
-                      <span class="d-block material-symbols-outlined">
-                        chevron_right
-                      </span>
-                    </a>
-                  </div>
-                  <div class="d-flex">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success fw-bold reply-btn me-3">
-                      Mark as read
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-success text-white fw-bold reply-btn">
-                      Reply
-                    </button>
-                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-success text-white fw-bold reply-btn">
+                    Reply
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
     
   </body>
